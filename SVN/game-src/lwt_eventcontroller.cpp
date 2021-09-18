@@ -6,7 +6,7 @@
 #include "lwt_eventcontroller.h"
 #include "questmanager.h"
 
-std::map<std::string, std::pair<DWORD, BYTE> > emng_info = {
+std::map<const char*, std::pair<DWORD, BYTE> > emng_info = {
     { "ayisigi_event" , { 19, 100 } },
 };
 
